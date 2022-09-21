@@ -1,0 +1,62 @@
+<html>
+    <head>
+        <title> Exercicio Tabela </title>
+    </head>
+    <body>
+        <font color="#000000" size="4" face="Arial">
+        <h1><center> Minha Loja </center></h1>
+        <p>
+            Todo os produtos com garantia de 12 meses.<br> Pagamento parcelado em 24X sem Juros.
+        </p>
+        <table border="1">
+            <tr><th> Produto </th>
+                <th> Marca/Modelo </th>
+                <th> Preço </th>
+                <th> Foto </th>
+                <th> Comprar/Quantidade </th></tr>
+            <tr>
+                <td rowspan="3"> Leitor Blue-ray </td>
+                <td> LG </td>
+                <td> 140,00 </td>
+                <td><img src="BP44_54_medium00.webp" width="100"/></td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td> Creative </td>
+                <td> 160,00 </td>
+                <td><img src="s-l300.jpg" width="100"/></td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td> Paraguai </td>
+                <td> 70,00 </td>
+                <td><img src="transferir.jpg" width="100"/></td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td rowspan="2"> Monitor </td>
+                <td> Samsung </td>
+                <td> 450,00 </td>
+                <td><img src="monitor_samsung_b2030n_20_polegadas_led_widescreen_nao_enviamos_10549_1_1f275da626cfdfcb27b3f9f6f89edba7.webp" width="100"/></td>
+                <td> &nbsp; </td>
+            </tr>
+            <tr>
+                <td> AOC </td>
+                <td> 470,00 </td>
+                <td><img src="1xg.webp" width="100"/></td>
+                <td> &nbsp; </td>
+            </tr>
+            
+        </table>
+        <table border="1">
+            <td align="right"> Comprar </td>
+        </table>
+
+        <p> Outras Lojas: </p>
+        <ul>
+            <li><a href="https://www.americanas.com.br"/> Americanas </li>
+            <li><a href="https://www.mercadolivre.com.br"/> Mercado Livre </li>
+        </ul>
+        </font>
+    </body>
+</html>
