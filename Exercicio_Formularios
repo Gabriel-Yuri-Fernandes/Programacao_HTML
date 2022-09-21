@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UFT-8">
+        <title> Formulario Exercicio HTML5 </title>
+    </head>
+    <header>
+        <font sizer="4" face="Arial">
+            <h1> Cadastre-se </h1>
+            <p> * Dados Obrigatórios </p>
+        </font>
+    </header>
+    <body>
+        <form>
+            <label>Nome Completo *</label>
+            <input type="text" name="=fnome" placeholder="Seu nome aqui ..." autofocus required><br>
+            <label>E-mail *</label>
+            <input type="email" name="e-mail" placeholder="Seu e-mail aqui..." required><br>
+            <label>Data de Nascimento *</label>
+            <input type="date" name="nasc" max="2004-12-31" value="31-12-2004" required> (idade minima 18 anos)<br>
+            <label>Telefone *</label>
+            <input type="tel" name="tele" pattern="\([1-9]{2}\)[0-9]{4}-[0-9]{4}" required> formato/exemplo: (47) 8181-6035 <br>
+            <label>Url página pessoal:</label>
+            <input type="url" name="homepage"/><br>
+            <label>Estado onde reside:</label>
+            <input list="estados" name="estado">
+            <datalist id="estados">
+                <option value="Paraná"></option>
+                <option value="Santa Catarina"></option>
+                <option value="Rio Grande do Sul"></option>
+            </datalist><br>
+            <input type="submit" value="Cadastrar-me">
+        </form>
+    </body>
+</html>
